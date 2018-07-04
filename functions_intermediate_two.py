@@ -55,8 +55,9 @@ for i in students:
 
 def printDojoInfo(dojo):
     for key,val in dojo.items():
-    print (len(dojo[key]),key)
-    for i in range(len(dojo[key])):
-        print(val[i])
+        print (len(dojo[key]),key)
+        for i in range(len(dojo[key])):
+            print(val[i])
+        print(" ")
 
         
